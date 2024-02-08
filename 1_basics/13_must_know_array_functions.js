@@ -125,10 +125,12 @@ console.log(iveMembers.map((x) => {
 console.log(iveMembers);
 
 // filter()
+console.log("--- filter() ---");
 numbers = [1, 8, 7, 6, 3];
 
 console.log(numbers.filter((x) => x % 2 === 0));
 
+console.log("--- find() ---");
 // find()
 console.log(numbers.find((x) => x % 2 === 0));
 
@@ -143,3 +145,17 @@ console.log(numbers.reduce((p, n) => p + n, 0));
 // 길이를 더해서 반환하라.
 // 참고로 string의 길이는 .length를 이용해서 구할 수 있다.
 console.log(iveMembers.reduce((p, n) => p + n.length, 0))
+
+
+
+console.log("--- js arr null check --- ");
+
+let arr = [];
+console.log(arr.s);
+if(arr === null){
+    console.log("0");
+};
+
+
+
+
