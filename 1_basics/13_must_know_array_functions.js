@@ -13,6 +13,7 @@ let iveMembers = [
 console.log(iveMembers);
 
 // push()
+console.log('---------------push() => 배열 맨 뒤에 요소를 집어넣고 집어넣은 배열의 길이를 return 함');
 console.log(iveMembers.push('코드팩토리'));
 console.log(iveMembers);
 
@@ -21,20 +22,22 @@ console.log('---------------_');
 console.log(iveMembers.pop());
 console.log(iveMembers);
 
-console.log('---------------_');
+console.log('---------------shift() => 배열 맨 앞의 요소를 꺼냄');
 // shift()
 console.log(iveMembers.shift());
 console.log(iveMembers);
 
 // unshift()
+console.log('---------------unshift() => 배열 맨 앞에 요소를 집어넣고 집어넣은 배열의 길이를 return 함');
 console.log(iveMembers.unshift('안유진'));
 console.log(iveMembers);
 
-console.log('---------------_');
+console.log('---------------splice(index, length)  인덱스 ~ 길이 만큼의 배열로 변환 ');
 
 // splice()
-console.log(iveMembers.splice(0, 3))
-console.log(iveMembers);
+console.log("iveMembers :: " + iveMembers);
+console.log("iveMembers.splice(index , length) :: " + iveMembers.splice(0, 3))
+console.log("iveMembers :: " + iveMembers);
 
 iveMembers = [
     '안유진',
