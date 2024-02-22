@@ -31,8 +31,11 @@ originalObj['group'] = '코드팩토리';
 console.log(originalObj);
 console.log(cloneObj);
 
+console.log('----------');
 console.log(originalObj === cloneObj);
 console.log(original === clone);
+
+console.log('----------');
 
 originalObj = {
     name: '최지호',

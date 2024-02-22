@@ -1,3 +1,4 @@
+console.log("=== start ===");
 /**
  * Property Attribute
  * 

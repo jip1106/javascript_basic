@@ -57,3 +57,12 @@ console.log(!![]);
  * 
  * 모두 false를 반환한다.
  */
+
+
+let testStr = 'false';
+
+if(testStr){
+    console.log("참");
+}else{
+    console.log("거짓");
+}
