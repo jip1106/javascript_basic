@@ -72,6 +72,7 @@ console.log(multiply2(3, 4));
 const multiply3 = (x, y) => x * y;
 console.log(multiply3(4, 5));
 
+console.log("=== multiply4 ===");
 const multiply4 = x => x * 2;
 console.log(multiply4(2));
 
@@ -101,6 +102,11 @@ console.log('-----------------');
 console.log(multiplyThree(4, 5, 6));
 
 const multiplyAll = function (...arguments) {
+    console.log(" --- arguments ---");
+    console.log(arguments);
+
+    console.log(" Object.values(arguments) ");
+    console.log(Object.values(arguments));
     return Object.values(arguments).reduce((a, b) => a * b, 1);
 }
 
